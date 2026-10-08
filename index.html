@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f7f9">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Love8">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./assets/love8-app-icon.png">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="Discover Love8, a shared space for you and your partner.">
+  <title>Love8 · A little closer, every day</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%238e6aff'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='28' fill='white'%3E♥%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css?v=26">
+</head>
+<body>
+  <aside id="designReview" class="design-review" hidden aria-label="Figma page index"></aside>
+  <div class="workspace">
+    <div class="device-shell" id="deviceShell">
+      <div class="device" id="device">
+        <header id="header"></header>
+        <main class="scroller" id="scroller"><section id="scene" class="scene" tabindex="-1"></section></main>
+        <footer id="footer"></footer>
+        <div id="overlay" hidden></div>
+        <div id="toast" class="toast" role="status" aria-live="polite"></div>
+        <p id="pageAnnouncer" class="sr-only" aria-live="polite" aria-atomic="true"></p>
+      </div>
+    </div>
+    <nav class="preview-controls" aria-label="Page preview controls">
+      <button id="previousScreen" aria-label="Previous page">‹</button>
+      <span id="screenCaption">Love8</span>
+      <button id="nextScreen" aria-label="Next page">›</button>
+      <a href="?review=1" title="Figma page index">Page index</a>
+    </nav>
+  </div>
+  <input id="photoInput" type="file" accept="image/*" hidden>
+  <input id="cameraInput" type="file" accept="image/*" capture="user" hidden>
+  <script type="module" src="./script.js?v=27"></script>
+</body>
+</html>

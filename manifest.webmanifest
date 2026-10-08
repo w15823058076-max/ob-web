@@ -1,0 +1,19 @@
+{
+  "name": "Love8",
+  "short_name": "Love8",
+  "description": "A little closer, every day.",
+  "start_url": "./?fullscreen=1#gender",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f9",
+  "theme_color": "#f6f7f9",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./assets/love8-app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

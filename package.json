@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "check": "node --check script.js && node --check app-config.js",
+    "serve": "python3 -m http.server 4175"
+  }
+}

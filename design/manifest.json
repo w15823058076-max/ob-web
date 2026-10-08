@@ -1,0 +1,45 @@
+{
+  "source": {
+    "file": "Untitled",
+    "page": "Page 1",
+    "canvas": { "width": 402, "height": 874 },
+    "document": "./figma-document.json"
+  },
+  "webPreview": {
+    "entry": "../index.html",
+    "reviewUrl": "../index.html?review=1",
+    "viewport": "402x874",
+    "notes": [
+      "The preview keeps the App canvas, navigation, spacing, card radii, colors, and CTA positions from Figma; the system status bar is intentionally omitted and content shifts upward.",
+      "Progress is calculated from the current position in the 16-screen main flow; the progress bar is rendered only for screens that contain one in Figma.",
+      "Variant frames are represented as interactive states instead of additional flow steps.",
+      "Payment and download actions remain local preview placeholders until production links are supplied."
+    ]
+  },
+  "screens": [
+    { "order": 1, "id": "gender", "name": "性别采集", "figmaNode": "1:4244", "figmaVariants": ["1:4293"], "hash": "#gender", "progressBar": true, "states": ["default", "selected"] },
+    { "order": 2, "id": "name", "name": "名字采集", "figmaNode": "1:322", "figmaVariants": ["1:1356"], "hash": "#name", "progressBar": true, "states": ["default", "avatar-sheet"] },
+    { "order": 3, "id": "age", "name": "年龄采集", "figmaNode": "1:386", "hash": "#age", "progressBar": true, "states": ["default", "selected"] },
+    { "order": 4, "id": "together", "name": "在一起时间采集", "figmaNode": "1:47678", "hash": "#together", "progressBar": true, "states": ["default", "selected"] },
+    { "order": 5, "id": "distance", "name": "距离采集", "figmaNode": "1:438", "hash": "#distance", "progressBar": true, "states": ["default", "selected"] },
+    { "order": 6, "id": "purpose", "name": "目的采集", "figmaNode": "1:4348", "hash": "#purpose", "progressBar": true, "states": ["default", "selected"] },
+    { "order": 7, "id": "needs", "name": "需求采集", "figmaNode": "1:476", "hash": "#needs", "progressBar": true, "states": ["default", "multi-select"] },
+    { "order": 8, "id": "brand", "name": "品宣", "figmaNode": "1:4104", "hash": "#brand", "states": ["default", "review-carousel"] },
+    { "order": 9, "id": "location", "name": "位置同步", "figmaNode": "1:3248", "hash": "#location", "progressBar": true, "assets": ["feature-location.png"] },
+    { "order": 10, "id": "status", "name": "状态同步", "figmaNode": "1:3426", "hash": "#status", "progressBar": true, "assets": ["feature-status.png"] },
+    { "order": 11, "id": "interact", "name": "互动", "figmaNode": "1:3582", "hash": "#interact", "progressBar": true, "assets": ["feature-interaction.png"] },
+    { "order": 12, "id": "widgets", "name": "小组件", "figmaNode": "1:3679", "hash": "#widgets", "progressBar": true, "assets": ["feature-widgets.png"] },
+    { "order": 13, "id": "story", "name": "故事回忆", "figmaNode": "1:3878", "hash": "#story", "progressBar": true, "assets": ["feature-story.png"] },
+    { "order": 14, "id": "product", "name": "产品作用", "figmaNode": "1:4951", "hash": "#product", "states": ["default"] },
+    { "order": 15, "id": "rights", "name": "权益说明", "figmaNode": "1:179", "hash": "#rights", "states": ["default"] },
+    { "order": 16, "id": "price", "name": "价格方案", "figmaNode": "1:4577", "figmaVariants": ["1:5236"], "hash": "#price", "states": ["yearly", "weekly", "checkout-info"] },
+    { "order": 17, "id": "binding", "name": "绑定账号", "figmaNode": "1:55872", "hash": "#binding", "states": ["empty", "filled", "restore-info"] },
+    { "order": 18, "id": "download", "name": "下载 App", "figmaNode": "6:55903", "hash": "#download", "states": ["default", "copy-info", "download-info"] }
+  ],
+  "assets": {
+    "directory": "../assets",
+    "avatarGrid": ["avatar-f1.png", "avatar-f2.png", "avatar-f3.png", "avatar-f4.png", "avatar-m1.png", "avatar-m2.png", "avatar-m3.png", "avatar-m4.png"],
+    "featureArt": ["feature-location.png", "feature-status.png", "feature-interaction.png", "feature-widgets.png", "feature-story.png"],
+    "commercialArt": ["brand-chart.png", "comparison-before.png", "comparison-after.png", "benefits-header.png", "plan-ribbon.png", "plan-mascot.png"]
+  }
+}
